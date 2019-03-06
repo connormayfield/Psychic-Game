@@ -21,7 +21,9 @@ function updateGuessesLeft() {
 
 function updateLetterToGuess() {
     this.letterToGuess = this.computerChoices[Math.floor(Math.random() * this.computerChoices.length)];
+
 };
+
 
 function updateGuessesSoFar() {
 // Displays user's guesses in html as they press keys.
@@ -36,6 +38,8 @@ var reset = function() {
     updateLetterToGuess();
     updateGuessesLeft();
     updateGuessesSoFar();
+    console.log(letterToGuess)
+
 }
 
 updateLetterToGuess();
