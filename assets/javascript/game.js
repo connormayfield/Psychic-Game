@@ -64,7 +64,7 @@ document.onkeyup = function(event) {
                 userGuess = userGuess.toUpperCase();
                 document.querySelector('.psychic').style.display = '';
                 document.querySelector('.psychic').style.height = '4em';
-                document.querySelector('.psychic').innerHTML = "Good guess! " + userGuess + " was the letter I was thinking of!";
+                document.querySelector('.psychic').innerHTML = "Good guess! " + userGuess + " next stop Venice Beach!";
                 reset();
             }
         } else if (guessesLeft == 0) {
