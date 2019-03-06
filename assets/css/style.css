@@ -1,15 +1,17 @@
 
 body {
   font-family: Raleway;
-  color: #FFFFFF;
+  color: #4fddfb;
   margin: 0;
   background-color: black;
+  letter-spacing: .2em;
 }
 
 header > h1 {
   font-size:80px;
   font-family: Marquee Moon;
-  padding-left: 29px;
+  padding-left: 90px;
+  color: #fdf418;
 }
 
 .background {
@@ -27,18 +29,30 @@ header > h1 {
 }
 
 .text-center {
-  border: solid #ffffff 3px;
+  border: solid #ffffff 10px;
   border-radius: 30px;
-
-  margin-right: 381px;
-  margin-left: 204px;
-  padding-left: 90px;
+  border-style: double;
+  border-color: #fe679f;
+  margin-right: 215px;
+  margin-left: 130px;
+  padding-left: 120px;
   padding-bottom: 45px;
 
 }
-h3 {
+.h31 {
   margin-left: -22px;
 }
 
+ul {
+  font-size: 20px;
+  padding: 13px;
+}
 
+li > h1 {
+  margin-left: -30px;
+
+}
+
+
+}
 /*  #ea3be0*/
